@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title> Mi segunda web</title>
+        <link rel="icon" href="favicon.png" type="image/x.icon"/>
+    </head>
+
+    <body>
+        <header>SESIÓN 2: EJERCICIOS</header>
+        <section>
+            <h2>Introducción</h2>
+            <h1> Bienvenidos a mi web</h1>
+        <ul>
+            <li><a href="https://aulavirtual3.educa.madrid.org/ctif.madridsur/course/view.php?id=7416"> Click aquí para ir al aula virtual</a></li>
+            <li><a href="https://docs.google.com/presentation/d/1Ykm3pTsyFbNTfvPcJx-rgu9gVFG6wknoRkVRDqc1V6k/edit?slide=id.g2750db9b3e1_0_143#slide=id.g2750db9b3e1_0_143">Click aquí para ir al aula virtual </a></li>
+        </ul>
+        </section>
+        <div class="Ejercicio 1">
+            <p>Este es un párrafo dentro de un div. En el ejercicio 1 de la sesión 2 hay que hacer un div, footer, header y section con html.</p>
+        </div>
+        <!--para que las líneas se corten y se vena en la pantalla enteras aunque sea muy larga se pulsa Alt+z-->
+
+        <div id="Formulario">
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50" placeholder="Escribe tu mensaje aquí"></textarea>
+                <label for="país">País:</label>
+                <select id="pais" name="pais">
+                    <option value="es">España</option>
+                    <option value="mx">México</option>
+                    <option value="ar">Argentina</option>
+                </select>
+            </form>
+        </div>
+        <footer>22/10/2025 Ejercicio 1. SESIÓN 2</footer>
+    </body>
+</html>
